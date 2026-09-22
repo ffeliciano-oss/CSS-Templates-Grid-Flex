@@ -8,34 +8,32 @@
         body{
             display: grid;
             grid-template-areas:
-            "c1 c2 c3"
-            "c1 c2 c3"
-            "c4 c2 c5"
-            "c4 c6 c5"
-            "c7 c6 c8"
-            "c7 c6 c8";
-            grid-template-columns: 1fr 1fr 1fr;
-            grid-template-rows: 105px 105px 105px 105px 105px 105px;
+            "c1 c2"
+            "c3 c4"
+            "c5 c6";
+            grid-template-columns: 1fr 1fr;
+            grid-template-rows: 210px 210px 210px;
+            gap: 4px;
         }
         .cx1{
             grid-area: c1;
             border: 1px solid black;
-            background-color: aqua;
+            background-color: violet;
         }
         .cx2{
             grid-area: c2;
             border: 1px solid black;
-            background-color: aquamarine;
+            background-color: violet;
         }
         .cx3{
             grid-area: c3;
             border: 1px solid black;
-            background-color: yellowgreen;
+            background-color: violet;
         }
         .cx4{
             grid-area: c4;
             border: 1px solid black;
-            background-color: yellow;
+            background-color: violet;
         }
         .cx5{
             grid-area: c5;
@@ -45,17 +43,7 @@
         .cx6{
             grid-area: c6;
             border: 1px solid black;
-            background-color: blueviolet;
-        }
-        .cx7{
-            grid-area: c7;
-            border: 1px solid black;
-            background-color: darksalmon;
-        }
-        .cx8{
-            grid-area: c8;
-            border: 1px solid black;
-            background-color: goldenrod;
+            background-color: violet;
         }
     </style>
 </head>
@@ -66,7 +54,5 @@
     <div class="cx4"></div>
     <div class="cx5"></div>
     <div class="cx6"></div>
-    <div class="cx7"></div>
-    <div class="cx8"></div>
 </body>
 </html>
